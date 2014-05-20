@@ -20,6 +20,8 @@ With the development of high-throughput sequencing technologies in past years, r
 
 If you haven’t already setup the paths for the tools, run the command below to input the paths directly into the bash_profile file.
 
+`python pathhelp.py`
+
 ###Example Commands
 ```
 nohup python rage-v2.4.py $HOME/data/ecolik12/k12rnaseq.fastq $HOME/data/ecolik12/k12riboseq.fastq $HOME/data/ecolik12/k12genome.fasta &
